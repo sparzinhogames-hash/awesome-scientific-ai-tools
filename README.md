@@ -2,12 +2,7 @@
 
 # Awesome Scientific AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**A curated list of AI-powered tools, MCP servers, and agent skills for scientific research.**
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-*From literature search to manuscript submission — every AI tool a researcher needs.*
+A curated list of AI-powered tools, MCP servers, and agent skills for scientific research.
 
 [English](README.md) | [中文](README-zh.md) | [日本語](README-ja.md) | [Español](README-es.md) | [Deutsch](README-de.md)
 
@@ -210,20 +205,6 @@ Skills and plugins that extend AI coding agents (Claude Code, Cursor, Codex) for
 - [ESM](https://github.com/facebookresearch/esm) - Evolutionary Scale Modeling — protein language models by Meta AI.
 - [MolBERT](https://github.com/BenevolentAI/MolBERT) - BERT-based molecular representation learning for drug discovery.
 
----
+## Footnotes
 
-## Contributing
-
-Your contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
-
-To add a new tool:
-1. Fork this repository
-2. Add the tool in the appropriate category
-3. Use the format: `[Tool Name](URL) - Brief description.`
-4. Submit a pull request
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this work.
+Your contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
