@@ -2,14 +2,14 @@
 
 # Awesome Scientific AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[English](README.md) | [中文](README-zh-CN.md) | **日本語** | [Español](README-es.md)
-
 **科学研究のためのAIツール、MCPサーバー、エージェントスキルの厳選リスト。**
 
-*文献検索から論文投稿まで——AI時代の研究者に必要なすべてを網羅。*
-
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+*文献検索から論文投稿まで — 研究者に必要なすべてのAIツール。*
+
+[English](README.md) | [中文](README-zh.md) | [日本語](README-ja.md) | [Español](README-es.md) | [Deutsch](README-de.md)
 
 </div>
 
@@ -17,200 +17,213 @@
 
 ## 目次
 
-- [文献検索・探索](#-文献検索探索)
-- [論文閲読・注釈](#-論文閲読注釈)
-- [データ分析・可視化](#-データ分析可視化)
-- [執筆・編集](#-執筆編集)
-- [引用・文献管理](#-引用文献管理)
-- [数式・科学表記](#-数式科学表記)
-- [図表・イラスト作成](#-図表イラスト作成)
-- [再現性・コード](#-再現性コード)
-- [研究用MCPサーバー](#-研究用mcpサーバー)
-- [研究用エージェントスキル](#-研究用エージェントスキル)
-- [分野別ツール](#-分野別ツール)
-  - [創薬・製薬](#創薬製薬)
-  - [バイオインフォマティクス・ゲノミクス](#バイオインフォマティクスゲノミクス)
-  - [化学](#化学)
-  - [臨床研究](#臨床研究)
-- [助成金申請・研究資金](#-助成金申請研究資金)
-- [プレゼンテーション・研究発信](#-プレゼンテーション研究発信)
-- [投稿・出版](#-投稿出版)
+- [文献検索と発見](#文献検索と発見)
+- [引用管理](#引用管理)
+- [研究論文の読解](#研究論文の読解)
+- [執筆と編集](#執筆と編集)
+- [データ分析と可視化](#データ分析と可視化)
+- [科学計算](#科学計算)
+- [図表・ダイアグラム生成](#図表ダイアグラム生成)
+- [実験・ラボツール](#実験ラボツール)
+- [創薬と化学](#創薬と化学)
+- [バイオインフォマティクスとゲノミクス](#バイオインフォマティクスとゲノミクス)
+- [臨床試験と医学](#臨床試験と医学)
+- [研究用MCPサーバー](#研究用mcpサーバー)
+- [AIエージェントスキルとプラグイン](#aiエージェントスキルとプラグイン)
+- [研究ワークフロー自動化](#研究ワークフロー自動化)
+- [プレプリントと出版ツール](#プレプリントと出版ツール)
+- [グラント執筆と資金調達](#グラント執筆と資金調達)
+- [コラボレーションとプロジェクト管理](#コラボレーションとプロジェクト管理)
+- [科学向けAIモデル](#科学向けaiモデル)
 
 ---
 
-## 📚 文献検索・探索
+## 文献検索と発見
 
-- [Consensus](https://consensus.app/) - LLMを活用して科学論文から知見を抽出するAI学術検索エンジン。💰
-- [Connected Papers](https://www.connectedpapers.com/) - 起点となる論文から関連論文をビジュアルグラフで探索するツール。
-- [Dimensions](https://www.dimensions.ai/) - 出版物、データセット、助成金、臨床試験を横断的に結びつける研究データプラットフォーム。
-- [Elicit](https://elicit.com/) - 関連論文を検索し、アブストラクトから重要情報を抽出するAI研究アシスタント。
-- [Inciteful](https://inciteful.xyz/) - 引用データから論文ネットワークを構築し、重要な文献を発見する無料ツール。
-- [Litmaps](https://www.litmaps.com/) - 起点論文からインタラクティブな引用マップを作成する文献マッピングツール。
-- [OpenAlex](https://openalex.org/) - 包括的なAPIを備えた、世界の研究システムの無料かつオープンなカタログ。
-- [Publish or Perish](https://harzing.com/resources/publish-or-perish) - 学術引用の取得と分析のための無料ソフトウェア。
-- [Research Rabbit](https://www.researchrabbit.ai/) - 引用ネットワークとコレクションを通じて研究論文を発見する無料ツール。
-- [Scite.ai](https://scite.ai/) - 論文がどのように引用されたか（支持・対立・言及）を示すスマート引用分析。💰
-- [Semantic Scholar](https://www.semanticscholar.org/) - Allen AIによるTLDR要約と引用分析を備えた無料のAI研究ツール。
+- [Consensus](https://consensus.app/) - 査読済み論文から知見を抽出するAI学術検索エンジン。LLMを活用して科学文献からYes/No形式の回答を合成する。
+- [Semantic Scholar](https://www.semanticscholar.org/) - Allen Instituteによる無料のAI研究ツール。2億件以上の論文をカバーし、引用コンテキスト、TLDR要約、影響度スコアを提供。
+- [Elicit](https://elicit.com/) - 関連論文を検索し、主要な主張を抽出し、複数の研究にわたる知見を統合するAIリサーチアシスタント。
+- [Connected Papers](https://www.connectedpapers.com/) - 学術論文の関連性を視覚的に探索するツール。任意の論文から関連論文のグラフを構築する。
+- [Research Rabbit](https://www.researchrabbit.ai/) - 研究論文ネットワークの発見と可視化のための無料ツール。コレクションを監視し、新しい関連論文を通知する。
+- [Scite.ai](https://scite.ai/) - 論文がどのように引用されたかを分析するスマート引用分析 — 支持、反論、言及の区別が可能。
+- [Litmaps](https://www.litmaps.com/) - 文献発見のための動的引用マップ。研究の系譜を追跡し、ギャップを発見する。
+- [OpenAlex](https://openalex.org/) - グローバルな研究システムの無料オープンカタログ。2億5,000万件以上の著作物と豊富なメタデータ、APIアクセスを提供。
+- [Inciteful](https://inciteful.xyz/) - 学術論文のネットワークを構築し、引用パターンを分析する無料ツール。
 
-## 📖 論文閲読・注釈
+## 引用管理
 
-- [ChatPDF](https://www.chatpdf.com/) - PDFドキュメントに対して質問できるチャットインターフェース。
-- [Explainpaper](https://www.explainpaper.com/) - 論文をアップロードし、分かりにくいテキストをハイライトするとAIが解説。
-- [Paper Digest](https://www.paper-digest.com/) - 科学論文の短い要約を生成するAIツール。
-- [Readwise Reader](https://readwise.io/read) - ハイライト、注釈、GPT要約機能を備えたAI読書アプリ。💰
-- [Scholarcy](https://www.scholarcy.com/) - 構造化された要約フラッシュカードを作成するAI論文要約ツール。💰
-- [SciSpace](https://typeset.io/) - 研究論文の複雑なセクション、数式、表を解説するAIコパイロット。💰
-- [Unriddle](https://www.unriddle.ai/) - 複雑な文書の理解を支援するAI研究アシスタント。💰
+- [Zotero](https://www.zotero.org/) - ブラウザ連携、PDF管理、Word/Google Docsプラグインを備えた無料オープンソースの文献管理ツール。
+- [Paperpile](https://paperpile.com/) - Google Docs/Word連携とAIによるメタデータ抽出機能を備えた最新の文献管理ツール。
+- [Mendeley](https://www.mendeley.com/) - ソーシャルネットワーキング機能、PDF注釈、コラボレーションツールを備えた文献管理ツール。
+- [EndNote](https://endnote.com/) - ジャーナルスタイルデータベースとWord用「Cite While You Write」機能を備えた業界標準の文献管理ツール。
+- [ReadCube Papers](https://www.papersapp.com/) - スマートレコメンデーションと高機能PDFリーダーを備えたAI強化型文献管理ツール。
 
-## 🔬 データ分析・可視化
+## 研究論文の読解
 
-- [BioRender](https://www.biorender.com/) - プロフェッショナルな科学図表・イラストを作成するWebベースツール。💰
-- [DataRobot](https://www.datarobot.com/) - 予測モデルの構築とデプロイのための自動機械学習プラットフォーム。💰
-- [Jamovi](https://www.jamovi.org/) - R上に構築された、使いやすいインターフェースの無料オープンソース統計ソフトウェア。
-- [JASP](https://jasp-stats.org/) - ベイズ統計と頻度主義分析、AIアシスタントを備えた無料オープンソース統計ソフトウェア。
-- [Julius AI](https://julius.ai/) - コード生成、可視化作成、データに関する質問への回答を行うAIデータ分析ツール。
-- [Orange](https://orangedatamining.com/) - データマイニングと機械学習のためのオープンソースのビジュアルプログラミングツール。
-- [Tableau Public](https://public.tableau.com/) - インタラクティブなチャートやダッシュボードを作成する無料のデータ可視化プラットフォーム。
+- [SciSpace](https://typeset.io/) - 論文読解用AIコパイロット。テキスト、数式、表を平易な言葉で解説する。
+- [Explainpaper](https://www.explainpaper.com/) - 論文をアップロードし、難解な箇所をハイライトすると、AIが解説を提供する。
+- [ChatPDF](https://www.chatpdf.com/) - あらゆるPDF文書とチャットできるツール。長い研究論文やレポートの読解に特に有用。
+- [Scholarcy](https://www.scholarcy.com/) - 主要な発見、手法、貢献のフラッシュカードを作成するAI要約ツール。
+- [Unriddle](https://www.unriddle.ai/) - 複雑な文書を理解するためのAIアシスタント。論文からナレッジグラフを生成する。
 
-## ✍️ 執筆・編集
+## 執筆と編集
 
-- [Authorea](https://www.authorea.com/) - LaTeX/Markdownをサポートした科学文書の共同執筆プラットフォーム。
-- [Grammarly](https://www.grammarly.com/) - 学術スタイル検出機能を備えたAIライティングアシスタント。💰
-- [Hemingway Editor](https://hemingwayapp.com/) - 複雑な文をハイライトし、よりシンプルな表現を提案するライティングツール。
-- [Overleaf](https://www.overleaf.com/) - AI支援の執筆機能を備えた共同LaTeXエディタ。💰
-- [Paperpal](https://paperpal.com/) - 数百万の出版論文で学習したAI学術ライティングアシスタント。💰
-- [Penelope.ai](https://www.penelope.ai/) - 原稿をジャーナルの要件とフォーマットガイドラインに照らし合わせてチェックするAIツール。
-- [QuillBot](https://quillbot.com/) - 学術執筆に便利なAI言い換え・文法チェックツール。
-- [Trinka AI](https://www.trinka.ai/) - 学術・技術文書向けに設計されたAI文法チェッカー。
-- [Writefull](https://www.writefull.com/) - 出版済み学術論文で学習した言語フィードバック用AIライティングツール。💰
+- [Jenni AI](https://jenni.ai/) - 引用サポートと言い換え機能を備えた学術執筆専用のAIライティングアシスタント。
+- [Paperpal](https://paperpal.com/) - 数百万件の出版論文で学習したAI文法・言語チェッカー。Cactus Communications提供。
+- [Writefull](https://www.writefull.com/) - 出版されたジャーナル論文で学習したAIライティングツール。Overleafに統合。
+- [Trinka](https://www.trinka.ai/) - スタイルとトーンの提案機能を備えた学術・技術文書向けAI文法チェッカー。
+- [QuillBot](https://quillbot.com/) - 文法チェッカーと引用生成機能を備えたAI言い換え・要約ツール。
+- [Grammarly](https://www.grammarly.com/) - アカデミックトーン検出と盗用チェック機能を備えた汎用ライティングアシスタント。
+- [Overleaf](https://www.overleaf.com/) - リアルタイムコラボレーション、テンプレート、Writefull AI統合を備えたオンラインLaTeXエディタ。
+- [Typst](https://typst.app/) - 最新のマークアップベース組版システム。LaTeXより高速なコンパイルと優れたエラーメッセージを提供。
 
-## 📊 引用・文献管理
+## データ分析と可視化
 
-- [Citation Gecko](https://citationgecko.azurewebsites.net/) - 引用ネットワークを利用して関連論文を発見する無料ツール。
-- [Crossref](https://www.crossref.org/) - 学術文献のDOI検索とメタデータ取得のための無料API。
-- [EndNote](https://endnote.com/) - 強力な検索・フォーマット機能を備えた文献管理ソフトウェア。💰
-- [Mendeley](https://www.mendeley.com/) - PDFリーダーと学術ソーシャルネットワークを備えた無料の文献管理ツール。
-- [Paperpile](https://paperpile.com/) - Google DocsとWord連携機能を備えた文献管理ツール。💰
-- [Reciteworks](https://reciteworks.com/) - 本文中の引用と参考文献リストの整合性をチェックする無料ツール。
-- [Zotero](https://www.zotero.org/) - ブラウザ連携とグループライブラリを備えた無料のオープンソース文献管理ツール。
+- [Julius AI](https://julius.ai/) - データを解釈し、可視化を作成し、自然言語から統計検定を実行するAIデータアナリスト。
+- [Hal9](https://hal9.com/) - 自然言語クエリからAIによるデータ分析とダッシュボード作成が可能。
+- [Obviously AI](https://www.obviously.ai/) - 予測、分類、時系列分析のためのノーコードMLプラットフォーム。
+- [JASP](https://jasp-stats.org/) - 頻度主義とベイズ分析の両方に対応した無料オープンソースの統計ソフトウェア。R/SPSSのUI代替。
+- [Datawrapper](https://www.datawrapper.de/) - コーディング不要で出版品質のチャート、マップ、テーブルを作成。
+- [Plotly](https://plotly.com/) - Python、R、JavaScript向けのインタラクティブグラフライブラリ。ダッシュボード用Dashフレームワーク付き。
+- [Observable](https://observablehq.com/) - リアクティブノートブックとD3.js統合を備えた協調型データ可視化プラットフォーム。
 
-## ➗ 数式・科学表記
+## 科学計算
 
-- [Detexify](https://detexify.kirelabs.org/classify.html) - 記号を手書きすると、対応するLaTeXコマンドを取得できるツール。
-- [LaTeX.js](https://latex.js.org/) - サーバーサイド処理なしでブラウザ上でLaTeXをレンダリングするJavaScriptライブラリ。
-- [Mathpix](https://mathpix.com/) - 数式の画像やPDFを編集可能なLaTeX/MathMLに変換するAIツール。💰
-- [MyScript](https://www.myscript.com/) - 数式や図の手書き文字認識ツール。
+- [Wolfram Alpha](https://www.wolframalpha.com/) - 数学、物理、化学、工学の計算のための計算知識エンジン。
+- [COMSOL](https://www.comsol.com/) - AI強化型メッシングとソルバー選択を備えたマルチフィジックスシミュレーション。
+- [MATLAB](https://www.mathworks.com/products/matlab.html) - AI/MLツールボックス、Simulink、ドメイン固有パッケージを備えた数値計算環境。
+- [Google Colab](https://colab.research.google.com/) - MLおよび科学計算用のGPU/TPUアクセス付き無料Jupyterノートブック環境。
+- [Weights & Biases](https://wandb.ai/) - ML実験追跡、ハイパーパラメータチューニング、モデルバージョン管理。
+- [DVC](https://dvc.org/) - MLプロジェクト用オープンソースバージョン管理。コードと並行してデータ、モデル、実験を追跡。
 
-## 🎨 図表・イラスト作成
+## 図表・ダイアグラム生成
 
-- [Diagrams.net (draw.io)](https://www.diagrams.net/) - フローチャート、ネットワーク図などを作成する無料のオープンソース作図ツール。
-- [Inkscape](https://inkscape.org/) - 科学イラスト向けの無料オープンソースベクターグラフィックスエディタ。
-- [Lucidchart](https://www.lucidchart.com/) - フローチャートやシステム図を作成する共同作業対応の作図プラットフォーム。💰
-- [Mermaid](https://mermaid.js.org/) - テキスト定義を使用したオープンソースのJavaScriptベース作図・チャートツール。
-- [PlotAPI](https://plotapi.com/) - インタラクティブで出版品質のデータ可視化を作成するAPI。💰
-- [SciDraw](https://scidraw.io/) - 研究者が提供する科学イラストの無料リポジトリ。
+- [BioRender](https://www.biorender.com/) - 生物学、化学、医学の図表用に5万以上のアイコンを備えた科学イラストツール。
+- [Mermaid](https://mermaid.js.org/) - Markdownでのテキストベースのダイアグラム作成。フローチャート、シーケンス図、ガントチャートをすべてコードで記述。
+- [draw.io / diagrams.net](https://www.diagrams.net/) - 科学用シェイプライブラリを備えた無料オープンソースのダイアグラムツール。
+- [Inkscape](https://inkscape.org/) - 無料オープンソースのベクターグラフィックスエディタ。出版品質のSVG図を作成。
+- [Matplotlib](https://matplotlib.org/) - 出版品質の図を生成するPython 2Dプロットライブラリ。Pythonにおける科学可視化の基盤。
+- [Seaborn](https://seaborn.pydata.org/) - Matplotlib上に構築された統計的可視化ライブラリ。出版用図の美しいデフォルト設定。
+- [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) - ニューラルネットワークアーキテクチャ図を描画するためのLaTeXコード。
+- [Excalidraw](https://excalidraw.com/) - 手書き風のホワイトボードツール。概念図やブレインストーミングに最適。
 
-## 🔄 再現性・コード
+## 実験・ラボツール
 
-- [Binder](https://mybinder.org/) - Gitリポジトリをインタラクティブで共有可能な計算環境に変換する無料サービス。
-- [CML](https://cml.dev/) - Iterativeによる機械学習プロジェクト向けオープンソースCI/CD。
-- [Code Ocean](https://codeocean.com/) - 研究者向けのクラウドベース計算再現性プラットフォーム。💰
-- [DVC](https://dvc.org/) - 機械学習プロジェクトとデータセットのためのオープンソースバージョン管理システム。
-- [Google Colab](https://colab.research.google.com/) - GPUサポートを備えた無料のクラウドベースJupyterノートブック環境。
-- [Jupyter](https://jupyter.org/) - 計算文書の作成と共有のためのオープンソースWebアプリケーション。
-- [Papers with Code](https://paperswithcode.com/) - ML論文とそのコード実装・データセットをリンクする無料リソース。
-- [Weights & Biases](https://wandb.ai/) - ML実験の追跡、データセットのバージョニング、モデル管理。💰
+- [Benchling](https://www.benchling.com/) - ライフサイエンスR&D向けクラウドプラットフォーム — 分子生物学、CRISPR設計、在庫管理。
+- [LabArchives](https://www.labarchives.com/) - バージョン管理、コラボレーション、機関コンプライアンス対応の電子ラボノートブック。
+- [Protocols.io](https://www.protocols.io/) - バージョン追跡付きで再現可能な研究プロトコルを共有するオープンアクセスプラットフォーム。
+- [Hive Benchmarks](https://hivebenchmark.com/) - AIによるラボワークフロー最適化と機器ベンチマーキング。
 
-## 🔌 研究用MCPサーバー
+## 創薬と化学
 
-- [arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server) - AIコーディングエージェント内からarXivのプレプリントを検索・取得。
-- [bioRxiv/medRxiv MCP](https://github.com/cdolik/biorxiv-mcp) - bioRxivおよびmedRxivデータベースからプレプリントを検索。
-- [ChEMBL MCP Server](https://github.com/jmagar/chembl-mcp) - 薬物様分子の生物活性データについてChEMBLデータベースに問い合わせ。
-- [ClinicalTrials.gov MCP](https://github.com/nv78/ClinicalTrialsMCP) - ClinicalTrials.govから臨床試験データを検索・分析。
-- [Google Scholar MCP](https://github.com/jdsharp/google-scholar-mcp) - AIエージェントからGoogle Scholarで学術論文と引用を検索。
-- [OpenAlex MCP Server](https://github.com/reetp14/openalex-mcp-server) - MCPを通じてOpenAlex学術知識グラフにアクセス。
-- [PubMed MCP Server](https://github.com/JackKuo666/PubMed-MCP-Server) - AIエージェントからPubMed/NCBIデータベースの生物医学文献を検索。
-- [Semantic Scholar MCP](https://github.com/cyanheads/semantic-scholar-mcp-server) - 論文検索、引用情報、著者情報のためのSemantic Scholar APIにアクセス。
+- [AlphaFold](https://alphafold.ebi.ac.uk/) - DeepMindのタンパク質構造予測。データベースに2億件以上の予測構造を収録。
+- [RDKit](https://www.rdkit.org/) - 分子解析、フィンガープリント、記述子計算のためのオープンソース化学情報学ツールキット。
+- [DeepChem](https://deepchem.io/) - 深層学習を用いた創薬、材料科学、量子化学のためのオープンソースライブラリ。
+- [ChEMBL](https://www.ebi.ac.uk/chembl/) - 200万以上の化合物と2,000万以上の活性測定データを含む大規模オープンバイオアクティビティデータベース。
+- [ZINC](https://zinc.docking.org/) - バーチャルスクリーニング用の市販化合物無料データベース。2億3,000万以上の分子を収録。
+- [Schrödinger](https://www.schrodinger.com/) - 創薬と材料科学のための物理ベース計算プラットフォーム。
+- [Open Babel](https://openbabel.org/) - 分子ファイル形式変換とフィンガープリントのためのオープンソース化学ツールボックス。
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - 1億以上の化合物、バイオアッセイ、文献参照を含むオープン化学データベース。
 
-## 🤖 研究用エージェントスキル
+## バイオインフォマティクスとゲノミクス
 
-- [Humanizer](https://github.com/blader/humanizer) - 学術コンテンツからAI生成の痕跡を除去。
-- [Multi-Agent Orchestrator](https://github.com/awslabs/multi-agent-orchestrator) - 複数のAIエージェントを管理し、リクエストをインテリジェントにルーティングするフレームワーク。
-- [Playwright Skill](https://github.com/nicepkg/playwright-mcp) - Webスクレイピングとデータ収集のためのブラウザ自動化スキル。
-- [Trail of Bits Security Skills](https://github.com/trailofbits/mcp-skills) - コード監査と脆弱性分析のためのセキュリティ特化スキル。
+- [Galaxy](https://galaxyproject.org/) - アクセスしやすく再現可能なバイオインフォマティクス解析のためのオープンソースWebプラットフォーム。
+- [Biopython](https://biopython.org/) - 計算分子生物学のためのPythonツール — 配列解析、構造解析、系統学。
+- [BLAST](https://blast.ncbi.nlm.nih.gov/) - ヌクレオチドまたはタンパク質配列を比較するための基本局所アラインメント検索ツール。
+- [Nextflow](https://www.nextflow.io/) - コンピューティング環境全体にわたるスケーラブルで再現可能なバイオインフォマティクスパイプラインのためのワークフローエンジン。
+- [DESeq2](https://bioconductor.org/packages/DESeq2/) - RNA-seqカウントデータからの差次的遺伝子発現解析用Rパッケージ。
+- [Scanpy](https://scanpy.readthedocs.io/) - スケーラブルなパフォーマンスを備えた単一細胞遺伝子発現解析のためのPythonツールキット。
+- [IGV](https://igv.org/) - ゲノムデータのインタラクティブ可視化のための統合ゲノミクスビューア。
 
-## 🧬 分野別ツール
+## 臨床試験と医学
 
-### 創薬・製薬
+- [ClinicalTrials.gov](https://clinicaltrials.gov/) - 米国の臨床研究レジストリ。50万件以上の研究を条件、介入、スポンサー別に検索可能。
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/) - 生物医学文献の無料検索エンジン。MEDLINEおよびライフサイエンスジャーナルから3,600万件以上の引用。
+- [Europe PMC](https://europepmc.org/) - 全文検索、引用ネットワーク、APIアクセスを備えたオープンアクセスの生物医学文献。
+- [Cochrane Library](https://www.cochranelibrary.com/) - エビデンスに基づく医療のためのゴールドスタンダードのシステマティックレビューとメタアナリシス。
+- [OHDSI / OMOP](https://www.ohdsi.org/) - 共通データモデルによる観察医療データ解析のためのオープンソースツール。
 
-- [ADMETlab](https://admetmesh.scbdd.com/) - 機械学習を使用した包括的なADMET特性予測プラットフォーム。
-- [AlphaFold](https://alphafold.ebi.ac.uk/) - アミノ酸配列から3Dタンパク質構造を予測するDeepMindのAIシステム。
-- [ChEMBL](https://www.ebi.ac.uk/chembl/) - 結合、機能、ADMETデータを含む生物活性薬物様分子のオープンデータベース。
-- [DeepChem](https://deepchem.io/) - 創薬と化学における深層学習のためのオープンソースPythonライブラリ。
-- [pkCSM](https://biosig.lab.uq.edu.au/pkcsm/) - グラフベースシグネチャを使用して薬物動態と毒性特性を予測するツール。
-- [SwissADME](http://www.swissadme.ch/) - 物理化学的、薬物動態学的、薬物様特性を計算する無料ツール。
+## 研究用MCPサーバー
 
-### バイオインフォマティクス・ゲノミクス
+MCP（Model Context Protocol）サーバーは、AIエージェントに科学データベースへのリアルタイムアクセスを提供する拡張機能です。
 
-- [BLAST](https://blast.ncbi.nlm.nih.gov/) - ヌクレオチドまたはタンパク質配列をデータベースと比較する無料ツール。
-- [DAVID](https://david.ncifcrf.gov/) - 遺伝子エンリッチメント解析のための注釈、可視化、統合発見データベース。
-- [Ensembl](https://www.ensembl.org/) - 遺伝子アノテーションと比較ゲノミクスを備えた脊椎動物ゲノムブラウザ。
-- [Galaxy](https://usegalaxy.org/) - アクセスしやすく再現可能な計算生物学のためのオープンソースWebプラットフォーム。
-- [UniProt](https://www.uniprot.org/) - 包括的なタンパク質配列・機能情報データベース。
+- [PubMed MCP](https://github.com/search?q=pubmed+mcp+server) - PubMed/MEDLINEから生物医学文献を検索・取得。
+- [arXiv MCP](https://github.com/search?q=arxiv+mcp+server) - すべての科学分野にわたるarXivのプレプリントを検索・取得。
+- [Semantic Scholar MCP](https://github.com/search?q=semantic+scholar+mcp) - Semantic Scholar APIにアクセスし、論文検索、引用、レコメンデーションを提供。
+- [ChEMBL MCP](https://github.com/search?q=chembl+mcp+server) - バイオアクティビティデータ、化合物情報、ターゲット相互作用を照会。
+- [ClinicalTrials MCP](https://github.com/search?q=clinical+trials+mcp) - 臨床試験レジストリを検索し、研究の詳細を抽出。
+- [bioRxiv MCP](https://github.com/search?q=biorxiv+mcp+server) - bioRxivおよびmedRxivのプレプリントにアクセス。
+- [CrossRef MCP](https://github.com/search?q=crossref+mcp+server) - DOI、引用、出版記録のメタデータ検索。
+- [Google Scholar MCP](https://github.com/nicholasgriffintn/scholar-mcp-server) - Google Scholarで学術論文と引用を検索。
 
-### 化学
+## AIエージェントスキルとプラグイン
 
-- [Avogadro](https://avogadro.cc/) - 無料のオープンソース分子エディタ・可視化ツール。
-- [ChemDraw](https://revvitysignals.com/products/research/chemdraw) - 業界標準の化学構造描画ツール。💰
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - 化学構造、特性、生物活性に関する情報を含むオープン化学データベース。
-- [RDKit](https://www.rdkit.org/) - 化学情報学と機械学習のためのオープンソースケモインフォマティクスツールキット。
+AIコーディングエージェント（Claude Code、Cursor、Codex）を研究ワークフロー向けに拡張するスキルとプラグイン。
 
-### 臨床研究
+- [Professional Word Document Generator](https://github.com/Harsh9005/professional-word-document-generator) - JSONから出版品質の.docxを生成。LaTeX数式、200以上の科学記号、自動引用に対応。
+- [Multi-Agent Orchestrator](https://github.com/Harsh9005/multi-agent-orchestrator) - 適応型複雑度、並列エージェント、品質ゲートを備えた6フェーズパイプライン。
+- [AI Session Logger](https://github.com/Harsh9005/ai-session-logger) - 永続的セッションメモリ — 会話をまたいでファイル、意思決定、進捗を追跡。
+- [Claude Scientific Skills](https://github.com/K-Dense-AI/claude-scientific-skills) - 複数ドメインにわたるClaude Code用の148以上の科学スキル。
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Claude Codeの拡張機能、スキル、リソースの厳選リスト。
 
-- [OpenClinica](https://www.openclinica.com/) - 臨床試験向けオープンソース電子データキャプチャシステム。
-- [REDCap](https://www.project-redcap.org/) - 臨床研究のためのオンライン調査・データベースを構築・管理するセキュアなWebアプリケーション。
-- [TrialBulletin](https://trialbulletin.com/) - AI搭載の臨床試験インテリジェンスプラットフォーム。
+## 研究ワークフロー自動化
 
-## 💰 助成金申請・研究資金
+- [Snakemake](https://snakemake.readthedocs.io/) - 再現可能でスケーラブルなデータ解析のためのPythonベースのワークフロー管理。
+- [Apache Airflow](https://airflow.apache.org/) - データワークフローをプログラムで作成、スケジューリング、監視するプラットフォーム。
+- [Prefect](https://www.prefect.io/) - データエンジニアリングとMLパイプラインのための最新のワークフローオーケストレーション。
+- [Kedro](https://kedro.org/) - 再現可能で保守性が高く、モジュール式のデータサイエンスコードを作成するためのオープンソースPythonフレームワーク。
+- [CWL](https://www.commonwl.org/) - 解析ツールとワークフローをポータブルに記述するための共通ワークフロー言語。
+- [Papermill](https://papermill.readthedocs.io/) - Jupyterノートブックをパラメータ化し、ワークフローとして実行。
 
-- [GrantForward](https://www.grantforward.com/) - 研究者と資金提供機会をマッチングするAI搭載助成金検索エンジン。💰
-- [NIH Reporter](https://reporter.nih.gov/) - NIH助成研究プロジェクトと成果の無料検索データベース。
-- [NSF Award Search](https://www.nsf.gov/awardsearch/) - NSF助成プロジェクトと受賞の無料検索ツール。
-- [Pivot-RP](https://pivot.proquest.com/) - 研究者マッチング機能を備えた包括的な資金提供機会データベース。💰
-- [Research Professional](https://www.researchprofessional.com/) - 資金提供機会のアラートと研究政策ニュース。💰
+## プレプリントと出版ツール
 
-## 📢 プレゼンテーション・研究発信
+- [arXiv](https://arxiv.org/) - 物理学、数学、コンピュータサイエンス、生物学などのオープンアクセスプレプリントサーバー。200万件以上の論文を収録。
+- [bioRxiv](https://www.biorxiv.org/) - 生物学のプレプリントサーバー。迅速な公開と無料アクセス。
+- [medRxiv](https://www.medrxiv.org/) - 健康科学のプレプリントサーバー。
+- [ChemRxiv](https://chemrxiv.org/) - 化学のプレプリントサーバー。
+- [Authorea](https://www.authorea.com/) - データ可視化とジャーナル投稿機能を内蔵した協調型執筆プラットフォーム。
+- [Curvenote](https://curvenote.com/) - Jupyter統合とインタラクティブな図を備えた科学執筆プラットフォーム。
 
-- [Beautiful.ai](https://www.beautiful.ai/) - スマートフォーマットとデザイン提案を備えたAIプレゼンテーションツール。💰
-- [Canva](https://www.canva.com/) - ポスター、インフォグラフィック、プレゼンテーション作成のためのAI機能付きデザインプラットフォーム。
-- [Gamma](https://gamma.app/) - プロフェッショナルなテンプレートを備えたAIプレゼンテーションビルダー。
-- [Lumen5](https://lumen5.com/) - 研究を魅力的な動画要約に変換するAI動画作成プラットフォーム。💰
-- [SlidesAI](https://www.slidesai.io/) - テキスト入力からプレゼンテーションスライドを作成するAIツール。
+## グラント執筆と資金調達
 
-## 📤 投稿・出版
+- [Granted.ai](https://granted.ai/) - 提案最適化機能を備えたAIグラント執筆アシスタント。
+- [GrantForward](https://www.grantforward.com/) - 14,000以上の助成機関をカバーする資金調達機会検索エンジン。
+- [Pivot-RP](https://pivot.proquest.com/) - 研究者プロファイルとコラボレーションマッチングを備えた包括的な資金調達ディスカバリーツール。
+- [Dimensions](https://www.dimensions.ai/) - グラント、出版物、特許、臨床試験を結び付けるリンクト研究データプラットフォーム。
+- [NIH Reporter](https://reporter.nih.gov/) - NIH資金による研究プロジェクト、出版物、特許を検索。
 
-- [DOAJ](https://doaj.org/) - Directory of Open Access Journals — 質の高いオープンアクセスジャーナルの厳選リスト。
-- [Editage Journal Selector](https://www.editage.com/journal-selector) - 原稿のアブストラクトに基づくAIジャーナル推薦ツール。
-- [Jane](https://jane.biosemantics.org/) - タイトル/アブストラクトに基づいて最適なジャーナルを見つける無料ツール。
-- [JournalFinder (Elsevier)](https://journalfinder.elsevier.com/) - 論文のスコープに合ったジャーナルを見つける無料ツール。
-- [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/) - 出版社のオープンアクセスポリシーとセルフアーカイブ許可のデータベース。
-- [Think Check Submit](https://thinkchecksubmit.org/) - 研究者が信頼できるジャーナルを見極めるためのチェックリストツール。
+## コラボレーションとプロジェクト管理
+
+- [Notion](https://www.notion.so/) - ノート、タスク、Wiki、データベースのためのオールインワンワークスペース。ラボ管理に人気。
+- [Obsidian](https://obsidian.md/) - グラフビュー、プラグイン、ローカルファースト対応のMarkdownベース知識管理ツール。
+- [Logseq](https://logseq.com/) - プライバシーファーストのオープンソース知識管理・メモツール。
+- [Slack](https://slack.com/) - 研究グループ向けのチャンネル、連携機能、自動化を備えたチームコミュニケーションツール。
+- [OSF](https://osf.io/) - Open Science Framework — 研究プロジェクト管理、事前登録、データ共有のための無料プラットフォーム。
+
+## 科学向けAIモデル
+
+- [AlphaFold 3](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) - タンパク質、DNA、RNA、リガンドの構造とそれらの相互作用を予測。
+- [Galactica](https://galactica.org/) - 4,800万以上の科学論文、教科書、百科事典で学習された大規模言語モデル。
+- [BioGPT](https://github.com/microsoft/BioGPT) - Microsoftによる生物医学文献で事前学習されたドメイン特化型LLM。
+- [SciBERT](https://github.com/allenai/scibert) - Semantic Scholarの114万件の科学論文で学習されたBERTモデル。
+- [ChemBERTa](https://github.com/seyonechithrananda/bert-loves-chemistry) - SMILES表現を使用した分子特性予測のためのBERTモデル。
+- [ESM](https://github.com/facebookresearch/esm) - Evolutionary Scale Modeling — Meta AIによるタンパク質言語モデル。
+- [MolBERT](https://github.com/BenevolentAI/MolBERT) - 創薬のためのBERTベースの分子表現学習。
 
 ---
 
-## 💡 凡例
+## コントリビューション
 
-- 💰 = 有料またはフリーミアム（無料枠あり、有料アップグレード）
-- ラベルのないツールはすべて無料またはオープンソース
+皆さんのご貢献を歓迎します！プルリクエストを提出する前に[CONTRIBUTING.md](CONTRIBUTING.md)をお読みください。
 
-## 🤝 コントリビュート
+新しいツールを追加するには：
+1. このリポジトリをフォーク
+2. 適切なカテゴリにツールを追加
+3. 以下の形式を使用：`[ツール名](URL) - 簡潔な説明。`
+4. プルリクエストを提出
 
-新しいツールの追加に関するガイドラインは[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+## ライセンス
 
----
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-<div align="center">
-
-**このリストが役に立ったら、他の研究者にも届くよう ⭐ をお願いします！**
-
-</div>
+法律で可能な範囲において、コントリビューターはこの著作物に対するすべての著作権および関連する権利を放棄しています。
