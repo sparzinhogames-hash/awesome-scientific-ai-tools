@@ -1,33 +1,37 @@
 # Contributing to Awesome Scientific AI Tools
 
-Thank you for contributing! This list aims to be the most comprehensive collection of AI tools for scientific research.
+Thank you for your interest in contributing!
 
 ## Guidelines
 
-1. **One tool per pull request** — makes review easier
-2. **Format**: `[Tool Name](URL) - Brief description.` (one line, ending with period)
-3. **Alphabetical order** within each section
-4. **No duplicates** — search existing entries first
-5. **Working links only** — verify the URL works
-6. **No affiliate links** or paid promotions
-7. **Free or freemium tools preferred** — paid tools must be clearly marked with :moneybag:
+### Adding a New Tool
 
-## Quality Standards
+1. Make sure the tool is related to scientific research and uses AI or significantly aids AI-powered workflows.
+2. Add the tool to the most appropriate category.
+3. Use the format: `[Tool Name](URL) - Brief description ending with a period.`
+4. Keep descriptions concise (one sentence, under 200 characters).
+5. Maintain alphabetical order within each category where possible.
+6. Ensure the link is working and points to the official resource.
 
-- Tool must be actively maintained (updated within last 12 months)
-- Tool must be specifically useful for scientific/academic research
-- MCP servers must have a working repository
-- Agent skills must include documentation/README
+### Quality Standards
 
-## How to Contribute
+- Tools must be actively maintained (updated within the last 2 years).
+- Commercial tools are acceptable if they offer a free tier or are widely used in academia.
+- No duplicate entries across categories.
+- No affiliate links.
 
-1. Fork this repository
-2. Add your tool to the appropriate section
-3. Submit a pull request with:
-   - Tool name and URL
-   - One-line description
-   - Which section it belongs to
+### Suggesting a New Category
 
-## Suggesting New Sections
+If a tool doesn't fit existing categories, open an issue to discuss creating a new one.
 
-Open an issue with the proposed section name and at least 3 tools that would go in it.
+### Pull Request Process
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b add-tool-name`)
+3. Make your changes
+4. Run `awesome-lint` if available to check formatting
+5. Submit a pull request with a clear description of the addition
+
+## Code of Conduct
+
+Be kind, respectful, and constructive. We're all here to help researchers find better tools.
